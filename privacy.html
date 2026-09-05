@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouTube Auto Sticky Bot — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for YouTube Auto Sticky Bot.">
+<style>
+:root { color-scheme: dark; }
+body {
+  margin: 0;
+  background: #111318;
+  color: #e7e9ee;
+  font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: 0 0 12px; }
+h2 { margin-top: 36px; color: #ffffff; }
+h3 { margin-top: 24px; color: #f2f3f5; }
+p, li { color: #cfd3dc; }
+strong { color: #fff; }
+code {
+  background: #222630;
+  border: 1px solid #343947;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #2a2f3a;
+  color: #969dab;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<main>
+
+<h1>YouTube Auto Sticky Bot — Privacy Policy</h1>
+<p><strong>Effective date:</strong> September 5, 2026</p>
+<p>This Privacy Policy explains what information <strong>YouTube Auto Sticky Bot</strong> (“the Bot”) processes, why it is used, and the choices available to Discord server administrators.</p>
+
+<h2>1. Information the Bot processes</h2>
+<h3>Server configuration data</h3>
+<p>The Bot may store limited configuration information needed to operate:</p>
+<ul>
+<li>Discord server (guild) ID;</li>
+<li>configured Discord channel ID;</li>
+<li>the Bot’s current sticky message ID;</li>
+<li>selected YouTube channel handle, URL, or channel ID;</li>
+<li>the most recently detected YouTube video ID or URL;</li>
+<li>server-specific sticky header text;</li>
+<li>server-specific sticky delay settings.</li>
+</ul>
+
+<h3>Temporary command and runtime data</h3>
+<p>The Bot may temporarily process the Discord user ID and server ID of someone using certain administrative commands for permission checks and cooldowns. It also receives message events in the configured channel so it knows when to move the sticky back to the bottom.</p>
+<p>The Bot is <strong>not designed to store the content of ordinary Discord messages</strong>.</p>
+
+<h3>YouTube lookup cache</h3>
+<p>To reduce YouTube Data API usage, the Bot may cache mappings between a YouTube handle, URL, or video and the corresponding YouTube channel ID.</p>
+
+<h2>2. How information is used</h2>
+<ul>
+<li>Remember which Discord channel should contain the sticky.</li>
+<li>Remember which YouTube channel a server follows.</li>
+<li>Detect and display the newest YouTube upload, Short, or livestream.</li>
+<li>Move the sticky after new Discord activity.</li>
+<li>Provide server-specific configuration and slash commands.</li>
+<li>Prevent command spam and reduce unnecessary YouTube API requests.</li>
+<li>Troubleshoot errors and maintain the service.</li>
+</ul>
+
+<h2>3. Information the Bot does not intentionally collect</h2>
+<p>The Bot is not designed to collect or store Discord passwords, ordinary message contents, payment information, precise location information, or sensitive personal information.</p>
+<p>The Bot’s Discord token and YouTube API key are private service credentials controlled by the Bot operator and are not collected from users.</p>
+
+<h2>4. Third-party services</h2>
+<p>The Bot depends on third-party services that may process information under their own privacy policies, including <strong>Discord</strong>, <strong>YouTube / Google</strong>, and the <strong>Bot’s hosting provider</strong>. The Bot operator does not control those third parties’ privacy practices.</p>
+
+<h2>5. Data retention</h2>
+<p>Server configuration is retained while the Bot remains configured for that server.</p>
+<p>Running <code>/sticky stop</code> removes that server’s active configuration from the Bot’s configuration store. Temporary cooldown information is held only in memory and is lost when the Bot restarts.</p>
+<p>Operational logs, hosting backups, or cached technical data may remain for a limited period as part of normal service operation.</p>
+
+<h2>6. Data sharing</h2>
+<p>The Bot operator does not sell user data. Information may be shared only when necessary to operate the Bot through the third-party services described above, to comply with legal obligations, or to protect the security and integrity of the Bot and its users.</p>
+
+<h2>7. Server administrator choices</h2>
+<ul>
+<li>View the current configuration with <code>/sticky status</code>.</li>
+<li>Change the YouTube or Discord channel with <code>/sticky setup</code>.</li>
+<li>Change server-specific header or delay settings.</li>
+<li>Remove the active configuration with <code>/sticky stop</code>.</li>
+<li>Remove the Bot from the Discord server.</li>
+</ul>
+
+<h2>8. Security</h2>
+<p>Reasonable measures are used to protect the Bot’s credentials and configuration data. However, no online service can guarantee absolute security.</p>
+
+<h2>9. Children’s privacy</h2>
+<p>The Bot is intended for use in accordance with Discord’s age requirements and policies. The Bot is not designed to knowingly collect personal information from children.</p>
+
+<h2>10. Changes to this Privacy Policy</h2>
+<p>This Privacy Policy may be updated from time to time to reflect changes to the Bot, its hosting, its features, or applicable requirements.</p>
+
+<h2>11. Contact</h2>
+<p>For privacy questions, deletion requests, or other concerns relating to the Bot, contact the Bot operator through the Discord account or support method through which the Bot was provided.</p>
+
+<footer>© 2026 YouTube Auto Sticky Bot</footer>
+</main>
+</body>
+</html>
